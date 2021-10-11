@@ -1,9 +1,15 @@
 /*
-[Script]
-cron "0 0 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_shop_sign.js,tag=店铺签到
+  author:Selier
+
+  用于监控日志，如异常等，每个日志文件夹仅读取最新文件
+  配置监听路径：export findName='/ql/log'
+  配置匹配文本(支持正则表达式)：export findString='/\.js:\d+/'
+  排除文件名或路径：export findBlackName='findLog'
+
+  [Script]
+  cron "0 0 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_shop_sign.js,tag=店铺签到
+
 */
-
-
 const $ = new Env('测试');
 
 //登录接码平台
