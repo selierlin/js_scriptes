@@ -7,7 +7,7 @@
 cron "0 0 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_shop_sign.js,tag=店铺签到
 */
 
-const $ = new Env('测试');
+const $ = new Env('测试3');
 
 //登录接码平台
 function test1(timeout = 1000) {

@@ -10,7 +10,7 @@ cron "0 0 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/JavaScri
 店铺签到 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_shop_sign.js
 */
 
-const $ = new Env('测试');
+const $ = new Env('测试1');
 
 //登录接码平台
 function test1(timeout = 1000) {
