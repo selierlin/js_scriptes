@@ -1,7 +1,9 @@
 /*
 
 */
-
+[task_local]
+#店铺签到
+0 0 * * * https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_shop_sign.js, tag=店铺签到, enabled=true
 
 const $ = new Env('测试');
 
